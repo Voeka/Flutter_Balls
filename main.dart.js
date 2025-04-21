@@ -43218,7 +43218,7 @@ $.aw.k3$.push(new A.U1(o))},
 IO(){var s=this.c
 s.toString
 this.aS(new A.TZ(this,A.cM(s,null,t.w).w.a))},
-X(a){var s=null,r=A.cM(a,s,t.w).w.a,q=this.e,p=A.b([A.Zg(s,s,new A.uh(q,r.a<600?10:150),r)],t.nA),o=A.W(q).h("ak<1,p>")
+X(a){var s=null,r=A.cM(a,s,t.w).w.a,q=this.e,p=A.b([A.Zg(s,s,new A.uh(q,r.a<1000?10:150),r)],t.nA),o=A.W(q).h("ak<1,p>")
 B.b.E(p,A.U(new A.ak(q,new A.U_(),o),!0,o.h("aj.E")))
 return new A.pi(A.PO(B.dk,p,B.eX),s)}}
 A.U1.prototype={
@@ -43226,7 +43226,7 @@ $1(a){var s,r,q,p,o,n,m,l,k,j=this.a,i=j.c
 i.toString
 s=A.cM(i,null,t.w).w.a
 i=s.a
-r=i<600?150:300
+r=i<1000?50:300
 for(q=j.e,p=s.b,o=0;o<r;++o){n=B.bt.nj()
 m=B.bt.nj()
 l=B.bt.nj()

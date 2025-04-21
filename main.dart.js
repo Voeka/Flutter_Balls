@@ -43218,17 +43218,15 @@ $.aw.k3$.push(new A.U1(o))},
 IO(){var s=this.c
 s.toString
 this.aS(new A.TZ(this,A.cM(s,null,t.w).w.a))},
-X(a){var s,r=null,q=A.cM(a,r,t.w).w,p=this.e
-q=A.b([A.Zg(r,r,new A.uh(p,150),q.a)],t.nA)
-s=A.W(p).h("ak<1,p>")
-B.b.E(q,A.U(new A.ak(p,new A.U_(),s),!0,s.h("aj.E")))
-return new A.pi(A.PO(B.dk,q,B.eX),r)}}
+X(a){var s=null,r=this.e,q=A.b([A.Zg(s,s,new A.uh(r,150),A.cM(a,s,t.w).w.a)],t.nA),p=A.W(r).h("ak<1,p>")
+B.b.E(q,A.U(new A.ak(r,new A.U_(),p),!0,p.h("aj.E")))
+return new A.pi(A.PO(B.dk,q,B.eX),s)}}
 A.U1.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j=this.a,i=j.c
 i.toString
 s=A.cM(i,null,t.w).w.a
 i=s.a
-r=i<1000?25:300
+r=i<1000?50:300
 for(q=j.e,p=s.b,o=0;o<r;++o){n=B.bt.nj()
 m=B.bt.nj()
 l=B.bt.nj()

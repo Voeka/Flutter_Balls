@@ -43218,9 +43218,11 @@ $.aw.k3$.push(new A.U1(o))},
 IO(){var s=this.c
 s.toString
 this.aS(new A.TZ(this,A.cM(s,null,t.w).w.a))},
-X(a){var s=null,r=A.cM(a,s,t.w).w.a,q=this.e,p=A.b([A.Zg(s,s,new A.uh(q,r.a<1000?50:150),r)],t.nA),o=A.W(q).h("ak<1,p>")
-B.b.E(p,A.U(new A.ak(q,new A.U_(),o),!0,o.h("aj.E")))
-return new A.pi(A.PO(B.dk,p,B.eX),s)}}
+X(a){var s,r=null,q=A.cM(a,r,t.w).w,p=this.e
+q=A.b([A.Zg(r,r,new A.uh(p,150),q.a)],t.nA)
+s=A.W(p).h("ak<1,p>")
+B.b.E(q,A.U(new A.ak(p,new A.U_(),s),!0,s.h("aj.E")))
+return new A.pi(A.PO(B.dk,q,B.eX),r)}}
 A.U1.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j=this.a,i=j.c
 i.toString
@@ -43285,7 +43287,7 @@ m=s[o].a
 l=n.a-m.a
 k=n.b-m.b
 j=Math.sqrt(l*l+k*k)
-if(j<=r){i.saw(A.c6(B.c.ae(255*((1-j/r)*0.5)),B.m.S()>>>16&255,B.m.S()>>>8&255,B.m.S()&255))
+if(j<=r){i.saw(A.c6(B.c.ae(255*((1-j/r)*0.8)),B.m.S()>>>16&255,B.m.S()>>>8&255,B.m.S()&255))
 a.MC(n,m,i)}}},
 i0(a){return!0}}
 A.DG.prototype={

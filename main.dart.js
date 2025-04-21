@@ -15384,7 +15384,8 @@ _.a=a
 _.b=b
 _.c=c
 _.d=d},
-uh:function uh(a){this.b=a},
+uh:function uh(a,b){this.b=a
+this.c=b},
 DG:function DG(){},
 ar(a,b,c,d,e,f,g,h){return new A.nh(d,e,g,c,a,f,b,h,A.w(t.c5,t.i5))},
 ni(a,b){var s,r=A.Zf(b,a),q=r<0?100:r,p=A.Ze(b,a),o=p<0?0:p,n=A.iz(q,a),m=A.iz(o,a)
@@ -43217,18 +43218,20 @@ $.aw.k3$.push(new A.U1(o))},
 IO(){var s=this.c
 s.toString
 this.aS(new A.TZ(this,A.cM(s,null,t.w).w.a))},
-X(a){var s=null,r=this.e,q=A.b([A.Zg(s,s,new A.uh(r),A.cM(a,s,t.w).w.a)],t.nA),p=A.W(r).h("ak<1,p>")
-B.b.E(q,A.U(new A.ak(r,new A.U_(),p),!0,p.h("aj.E")))
-return new A.pi(A.PO(B.dk,q,B.eX),s)}}
+X(a){var s=null,r=A.cM(a,s,t.w).w.a,q=this.e,p=A.b([A.Zg(s,s,new A.uh(q,r.a<600?10:150),r)],t.nA),o=A.W(q).h("ak<1,p>")
+B.b.E(p,A.U(new A.ak(q,new A.U_(),o),!0,o.h("aj.E")))
+return new A.pi(A.PO(B.dk,p,B.eX),s)}}
 A.U1.prototype={
-$1(a){var s,r,q,p,o,n,m,l,k=this.a,j=k.c
-j.toString
-s=A.cM(j,null,t.w).w.a
-for(j=k.e,r=s.a,q=s.b,p=0;p<300;++p){o=B.bt.nj()
-n=B.bt.nj()
+$1(a){var s,r,q,p,o,n,m,l,k,j=this.a,i=j.c
+i.toString
+s=A.cM(i,null,t.w).w.a
+i=s.a
+r=i<600?150:300
+for(q=j.e,p=s.b,o=0;o<r;++o){n=B.bt.nj()
 m=B.bt.nj()
 l=B.bt.nj()
-j.push(new A.k5(new A.H(o*r,n*q),10,new A.H(m*2-1,l*2-1),B.xV[B.bt.OU(9)]))}k.aS(new A.U0())},
+k=B.bt.nj()
+q.push(new A.k5(new A.H(n*i,m*p),10,new A.H(l*2-1,k*2-1),B.xV[B.bt.OU(9)]))}j.aS(new A.U0())},
 $S:5}
 A.U0.prototype={
 $0(){},
@@ -43275,15 +43278,15 @@ q=new A.H(o,n).V(0,r)
 p.c=p.c.Z(0,q)
 a.c=a.c.U(0,q)}}
 A.uh.prototype={
-b6(a,b){var s,r,q,p,o,n,m,l,k,j=$.aq().bk()
-j.sjx(1)
-for(s=this.b,r=0;r<s.length;r=q)for(q=r+1,p=q;p<s.length;++p){o=s[r].a
-n=s[p].a
-m=o.a-n.a
-l=o.b-n.b
-k=Math.sqrt(m*m+l*l)
-if(k<=150){j.saw(A.c6(B.c.ae(255*((1-k/150)*0.5)),B.m.S()>>>16&255,B.m.S()>>>8&255,B.m.S()&255))
-a.MC(o,n,j)}}},
+b6(a,b){var s,r,q,p,o,n,m,l,k,j,i=$.aq().bk()
+i.sjx(1)
+for(s=this.b,r=this.c,q=0;q<s.length;q=p)for(p=q+1,o=p;o<s.length;++o){n=s[q].a
+m=s[o].a
+l=n.a-m.a
+k=n.b-m.b
+j=Math.sqrt(l*l+k*k)
+if(j<=r){i.saw(A.c6(B.c.ae(255*((1-j/r)*0.5)),B.m.S()>>>16&255,B.m.S()>>>8&255,B.m.S()&255))
+a.MC(n,m,i)}}},
 i0(a){return!0}}
 A.DG.prototype={
 m(){var s=this,r=s.e3$

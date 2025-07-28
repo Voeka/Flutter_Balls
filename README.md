@@ -1,6 +1,6 @@
 # flutter_prj_onetotrip
 
-A new Flutter project.
+A new Flutter project. Check it on https://voeka.github.io/Flutter_Balls/
 
 ## Getting Started
 
